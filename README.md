@@ -14,6 +14,7 @@ We will start by giving you a list of strings. Each string is the text of an ema
 One particular feature of Naive Bayes is that it’s a good algorithm for working with text classification. When dealing with text, it’s very common to treat each unique word as a feature, and since the typical person’s vocabulary is many thousands of words, this makes for a large number of features. The relative simplicity of the algorithm and the independent features assumption of Naive Bayes make it a strong performer for classifying texts. 
 
 <h3>Support Vector Machine</h3>
+<a href=https://github.com/Niranjani29/Supervised_Author_Identification/blob/master/svm_author_id.py> SVM </a>
    We’ll tackle the exact same email author ID problem as the Naive Bayes mini-project, but now with an SVM. What we find will help    clarify some of the practical differences between the two algorithms.
   Import, create, train and make predictions with the sklearn SVC classifier. When creating the classifier, use a linear kernel (if you forget this step, you will be unpleasantly surprised by how long the classifier takes to train). 
   One way to speed up an algorithm is to train it on a smaller training dataset. The tradeoff is that the accuracy almost always goes down when you do this. Let’s explore this more concretely: add in the following two lines immediately before training your classifier.
