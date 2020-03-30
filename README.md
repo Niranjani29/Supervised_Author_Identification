@@ -7,6 +7,7 @@
  
  
  <h3>Naive Bayes</h3>
+ <a href=https://github.com/Niranjani29/Supervised_Author_Identification/blob/master/nb_author_id.py>Naive Bayes</a>
   We will start with Naive Bayes in this mini-project, and then expand in later projects to other algorithms.
 
 We will start by giving you a list of strings. Each string is the text of an email, which has undergone some basic preprocessing; we will then provide the code to split the dataset into training and testing sets. (In the next lessons you’ll learn how to do this preprocessing and splitting yourself, but for now we’ll give the code to you).
@@ -26,4 +27,5 @@ One particular feature of Naive Bayes is that it’s a good algorithm for workin
 
 
 <h3>Decision Tree</h3>
+<a href=https://github.com/Niranjani29/Supervised_Author_Identification/blob/master/dt_author_id.py> Decision Tree</a>
      We will again try to identify the authors in a body of emails, this time using a decision tree. The starter code is in    decision_tree/dt_author_id.py.
